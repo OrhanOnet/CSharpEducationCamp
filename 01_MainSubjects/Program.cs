@@ -102,16 +102,16 @@ namespace _01_MainSubjects
             //Console.WriteLine();
 
             //Console.WriteLine("****Restoran Menü Fiyatı ****");
-            
+
             //int totalHamburgerPrice = 0;
             //int totalCokePrice = 0;
             //int totalWaterPrice = 0;
             //int totalFriesPrice = 0;
             //int totalPizzaPrice = 0;
             //int totalLemonadePrice = 0;
-            
-           
-            
+
+
+
             //int hamburgerCount;
             //int cokeCount;
             //int waterCount;
@@ -119,7 +119,7 @@ namespace _01_MainSubjects
             //int pizzaCount;
             //int lemonadeCount;
 
-            
+
 
             //hamburgerCount = 3; cokeCount=3; waterCount=3;friesCount = 1;pizzaCount = 0;lemonadeCount = 0;
             //totalHamburgerPrice = hamburgerCount * hamburgerPrice;
@@ -146,19 +146,19 @@ namespace _01_MainSubjects
             //Console.WriteLine("Pizza tutarı:" + totalPizzaPrice + "Tl");
             //Console.WriteLine("--------------------------------------------");
             //Console.WriteLine("Limonata tutarı:" + totalLemonadePrice + "Tl");
-           
+
             //Console.WriteLine("--------------------------------------------");
             //int totalPrice=totalHamburgerPrice+ totalCokePrice+ totalWaterPrice+ totalFriesPrice+ totalPizzaPrice+ totalLemonadePrice;
             //Console.WriteLine("Topalam Tutar:" + totalPrice + "TL");
- #endregion
-            
-            
-            
-            
-            
-            
-            
-            
+
+
+            // Console.OutputEncoding = System.Text.Encoding.Unicode; // Required code for ₺ (TL) sign
+
+            #endregion
+
+
+
+
             Console.ReadLine();
         }
     }
